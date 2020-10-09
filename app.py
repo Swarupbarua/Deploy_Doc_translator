@@ -38,7 +38,7 @@ except :
     checkpoint_att.restore(tf.train.latest_checkpoint(checkpoint_dir))
 
 # Load tesseract and pre trained East model
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'
+#pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'
 #cap = cv2.VideoCapture('test2.mp4')
 net = cv2.dnn.readNet("frozen_east_text_detection.pb")
 
