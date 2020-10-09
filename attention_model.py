@@ -3,19 +3,10 @@
 import tensorflow as tf
 import time
 import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
 import unicodedata
 import re
-import os
-import io
-import pandas as pd
-import seaborn as sns
 from tensorflow.keras.layers import Embedding,LSTM, Dense
-import pickle
 # Reference - https://medium.com/generalist-dev/background-colour-detection-using-opencv-and-python-22ed8655b243
-import sys
-import cv2
 from collections import Counter
 
 # Converts the unicode file to ascii
