@@ -3,5 +3,3 @@ opencv-contrib-python-headless
 imutils
 pytesseract
 tensorflow
-unicodedata
-collections
